@@ -90,11 +90,11 @@ function updateGifPosition() {
         const W = canvasRect.width ;
 
         const scaler=0.8;
-        imgElement.style.width = `${W*scaler}px`; // 更新 GIF 宽度与画布宽度相同
-        imgElement.style.height = `auto`; // 自动调整高度以保持比例
+        imgElement.style.width = `${W*scaler}px`; // Update GIF width to match canvas width
+        imgElement.style.height = `auto`; // Automatically adjust height to maintain aspect ratio
         imgElement.style.position = 'absolute';
-        imgElement.style.left = `${canvasRect.left+W*(1-scaler)/2}px`; // 水平居中
-        imgElement.style.top = `${canvasRect.top + 0 + 10}px`; // 放在画布上方 10px 处
+        imgElement.style.left = `${canvasRect.left+W*(1-scaler)/2}px`; 
+        imgElement.style.top = `${canvasRect.top + 0 + 10}px`; 
     }
 }
 window.addEventListener('resize', updateGifPosition);
