@@ -10,5 +10,5 @@ Users can check the weather information by clicking on the map and instantly vie
 The coding process for creating an interactive weather map starts by setting up the Google Maps API to display the world map. Mouse click events on the map are captured to fetch latitude and longitude coordinates for the clicked spot. These coordinates are then used to fetch weather data from the OpenWeather API, storing details like temperature and weather conditions. Once the weather data is received, it's presented to the user, including specific information about the temperature and weather conditions. Additionally, corresponding GIFs are played based on the weather conditions displayed on the weather card.
  
 ## Deployment
-https://fir-turquoise-eye.glitch.me/Weather%20API%20website/
+https://assignment-3-weather-api.glitch.me/Weather%20API%20website/
 
